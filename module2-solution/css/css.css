@@ -37,9 +37,10 @@ width: 100%
 .box{ 
 position: relative;
 margin:10px;
-width: 95%;
 background-color: grey;
 border: 1px solid black;
+height: 200px;
+overflow: auto;
 }
 
 #Beef{
@@ -50,6 +51,9 @@ width: 120px;
 height: 30px;
 background-color: red;
 border: 1px solid black;
+border-top-width: 0px;
+border-right-width: 0px;
+    
 
 }
 
@@ -61,6 +65,8 @@ width: 120px;
 height: 30px;
 background-color: pink;
 border: 1px solid black;
+border-top-width: 0px;
+border-right-width: 0px;
 }
 
 #Sushi{
@@ -71,14 +77,15 @@ width: 120px;
 height: 30px;
 background-color: yellow;
 border: 1px solid black;
+border-top-width: 0px;
+border-right-width: 0px;
 }
 
 p{
 clear: right;
-margin-top: 35px;
-width: 90%;
-margin-left: auto;
-margin-right: auto;
+margin-top: 55px;
+margin-left: 16px;
+margin-right: 16px;
 
 }
 h2{
