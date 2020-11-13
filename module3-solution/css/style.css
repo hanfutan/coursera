@@ -1,0 +1,93 @@
+body{
+    background-color: crimson
+}
+.navbar{
+   
+    height: auto;
+   
+    
+    
+    
+}
+
+.navbar-brand {
+    font-size:  1.6em;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+     font-weight: 700;
+    float: left;
+ 
+
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+    text-decoration: none;
+}
+.nav-link{
+    
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    
+}
+.navbar-collapse{
+    
+  margin-left: -16px;
+  margin-right: -16px;
+    margin-bottom: -8px;
+    margin-top: 8px;
+  
+    
+}
+.navbar-nav hr{
+ border-top: 1px solid black;
+    margin:0 auto;
+   
+    width: 95%;
+   
+}
+#our-menu{
+    font-size: 1.7em;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+     font-weight: 700;
+}
+#main-content{
+    height: auto;
+    background-color: white;
+}
+#title{
+    font-size: 1.3em;
+    margin-top: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+     font-weight: 700;
+}
+#paragraph{
+    
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+     font-weight: 300;
+}
+@media (min-width: 992px){
+    .navbar-expand-lg .navbar-nav {
+        display: none;
+    }
+}
+@media (min-width: 576px){
+    .navbar-toggler {
+        display: none;
+    }
+   
+    }
+    
+
+@media (max-width: 576px){
+ 
+    .container{
+        max-width: 340px;
+    }
+    
+}
